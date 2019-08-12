@@ -32,7 +32,7 @@ public class GenderRepositoryImpl implements GenderRepository {
 
     @Override
     public Gender read(String id){
-        return genders.stream()
+        return Gender.stream()
                 .filter(gender -> gender.getGenderID() == id)
                 .findAny()
                 .orElse(null);
