@@ -1,20 +1,18 @@
 package payroll.factories.demographics;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class GenderFactoryTest {
 
-    @Test
-    public void createGender() {
-        Gender g = GenderFactory.createGender("Male");
-        assertNotNull(g);
+    @Before
+    public void setUp() throws Exception {
     }
 
     @Test
-    public void createGender1() {
-        Race r = RaceFactory.createRace("Hispanic");
-        assertNotNull(r);
+    public void createGender() {
+
     }
 }
